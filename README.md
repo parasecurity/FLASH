@@ -888,7 +888,9 @@ For a complete list of references and detailed citations, please consult the FLA
 
 ## 📄 License
 
-[TODO]
+Copyright 2025 Ioannis Christofilogiannis, Georgios Valavanis, Alexander Shevtsov, Ioannis Lamprou, and Sotiris Ioannidis
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE-2.0.txt) file for details.
 
 ## 🙏 Acknowledgments
 

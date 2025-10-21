@@ -38,7 +38,12 @@ extensions = [
 ]
 
 setup(
-    name="cython_fl_framework",
+    name="FLASH_framework",
     ext_modules=cythonize(extensions, language_level="3"),
+    license="Apache-2.0",
+    classifiers=[
+        "License :: OSI Approved :: Apache Software License",
+    ],
 )
+
 print("Successfully built.")

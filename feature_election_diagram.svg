@@ -1,0 +1,101 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#ffffff" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="450" y="50" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">Freedom Degree takes values within 0 and 1</text>
+  
+  <!-- Left Venn diagram - Intersection (fd = 0) -->
+  <g transform="translate(200, 220)">
+    <text x="0" y="-120" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Freedom Degree = 0</text>
+    <text x="0" y="-100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Intersection Only)</text>
+    
+    <!-- Client Circles -->
+    <circle cx="-40" cy="-20" r="70" fill="#4285f4" opacity="0.4" stroke="#4285f4" stroke-width="2"/>
+    <text x="-87 " y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 1</text>
+    
+    <circle cx="40" cy="-20" r="70" fill="#34a853" opacity="0.4" stroke="#34a853" stroke-width="2"/>
+    <text x="45 " y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 2</text>
+    
+    <circle cx="0" cy="60" r="70" fill="#fbbc05" opacity="0.4" stroke="#fbbc05" stroke-width="2"/>
+    <text x="-22" y="120" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 3</text>
+    
+    <!-- Intersection highlighted -->
+    <path d="M 0,15 a 40,40 0 0,0 0,0 z" fill="#ea4335" opacity="0.8"/>
+    
+    <!-- Feature symbols in intersection -->
+    <circle cx="0" cy="10" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="0" y="11" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" alignment-baseline="middle" fill="#333">f1</text>
+  </g>
+  
+  <!-- Right Venn diagram - Union (fd = 1) -->
+  <g transform="translate(700, 220)">
+    <text x="0" y="-120" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Freedom Degree = 1</text>
+    <text x="0" y="-100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Complete Union)</text>
+    
+    <!-- Client Circles -->
+    <circle cx="-40" cy="-20" r="70" fill="#4285f4" opacity="0.4" stroke="#4285f4" stroke-width="2"/>
+    <text x="-87" y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 1</text>
+    
+    <circle cx="40" cy="-20" r="70" fill="#34a853" opacity="0.4" stroke="#34a853" stroke-width="2"/>
+    <text x="45" y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 2</text>
+    
+    <circle cx="0" cy="60" r="70" fill="#fbbc05" opacity="0.4" stroke="#fbbc05" stroke-width="2"/>
+    <text x="-22" y="120" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 3</text>
+    
+    <!-- Complete union highlighted -->
+    <circle cx="-40" cy="-20" r="70" fill="#ea4335" opacity="0.3"/>
+    <circle cx="40" cy="-20" r="70" fill="#ea4335" opacity="0.3"/>
+    <circle cx="0" cy="60" r="70" fill="#ea4335" opacity="0.3"/>
+    
+    <!-- Feature symbols -->
+    <circle cx="0" cy="10" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="0" y="14" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f1</text>
+    
+    <circle cx="-50" cy="-40" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="-50" y="-36" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f2</text>
+    
+    <circle cx="50" cy="-40" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="50" y="-36" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f3</text>
+    
+    <circle cx="0" cy="70" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="0" y="74" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f4</text>
+    
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ea4335" font-weight="bold">All Selected</text>
+  </g>
+  
+  <!-- Center Venn diagram - Freedom Degree between 0 and 1 -->
+  <g transform="translate(450, 220)">
+    <text x="0" y="-120" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">Freedom Degree = 0.4</text>
+    <text x="0" y="-100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Preference-Based Selection)</text>
+    
+    <!-- Client Circles -->
+    <circle cx="-40" cy="-20" r="70" fill="#4285f4" opacity="0.4" stroke="#4285f4" stroke-width="2"/>
+    <text x="-87" y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 1</text>
+    
+    <circle cx="40" cy="-20" r="70" fill="#34a853" opacity="0.4" stroke="#34a853" stroke-width="2"/>
+    <text x="45" y="-50" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 2</text>
+    
+    <circle cx="0" cy="60" r="70" fill="#fbbc05" opacity="0.4" stroke="#fbbc05" stroke-width="2"/>
+    <text x="-22" y="120" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Client 3</text>
+    
+    <!-- Intersection highlighted -->
+    <path d="M 0,15 a 40,40 0 0,0 0,0 z" fill="#ea4335" opacity="0.8"/>
+    
+    <!-- Selected features from symmetric difference -->
+    <circle cx="-30" cy="-30" r="23" fill="#ea4335" opacity="0.5" stroke="#ea4335" stroke-width="2" stroke-dasharray="4,2"/>
+    <circle cx="40" cy="25" r="23" fill="#ea4335" opacity="0.5" stroke="#ea4335" stroke-width="2" stroke-dasharray="4,2"/>
+    
+    <!-- Feature symbols -->
+    <circle cx="0" cy="10" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="0" y="14" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f1</text>
+    
+    <circle cx="-30" cy="-30" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="-30" y="-26" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f2</text>
+    
+    <circle cx="40" cy="25" r="10" fill="white" stroke="#333" stroke-width="1.5"/>
+    <text x="40" y="29" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">f3</text>
+    
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ea4335" font-weight="bold">Selected: f1 + Top 40% from Union \ Intersection</text>
+  </g>
+</svg>

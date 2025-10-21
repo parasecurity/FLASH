@@ -1,0 +1,42 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: DockerfileServer
+      args:
+        BUILDKIT_INLINE_CACHE: '0'
+    environment:
+      - EXPERIMENT_TIME=${EXPERIMENT_TIME:-default}
+      - PYTHONUNBUFFERED=1
+    command: python server.py --port 8080 --clients ${NUM_CLIENTS:-3} --model ${MODEL:-GNB} --fe-method ${FS_METHOD:-impetus} --freedom ${FREEDOM_RATE:-0.5}
+    networks:
+      - app_network
+    volumes:
+      - ./datasets:/app/datasets:ro
+      - ./server.py:/app/server.py:ro
+      - ./data/server:/app/data
+      - ./logs:/app/logs
+    
+  client:
+    build:
+      context: .
+      dockerfile: DockerfileClient
+      args:
+        BUILDKIT_INLINE_CACHE: '0'
+    environment:
+      - EXPERIMENT_TIME=${EXPERIMENT_TIME:-default}
+      - PYTHONUNBUFFERED=1
+    command: python client.py --host server --port 8080 --dataset ${DATASET:-heartdisease}
+    networks:
+      - app_network
+    depends_on:
+      - server
+    volumes:
+      - ./datasets:/app/datasets:ro
+      - ./client.py:/app/client.py:ro
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+networks:
+  app_network:
+    driver: bridge

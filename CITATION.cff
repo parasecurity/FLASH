@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Christofilogiannis"
+  given-names: "Ioannis"
+- family-names: "Valavanis"
+  given-names: "Georgios"
+- family-names: "Shevtsov"
+  given-names: "Alexander"
+- family-names: "Lamprou"
+  given-names: "Ioannis"
+- family-names: "Ioannidis"
+  given-names: "Sotiris"
+title: "FLASH: A Framework for Federated Learning with Attribute Selection and Hyperparameter Optimization"
+version: 1.0.0
+doi: 10.1109/FLTA67013.2025.11336571
+date-released: 2025-01-01
+url: "https://doi.org/10.1109/FLTA67013.2025.11336571"

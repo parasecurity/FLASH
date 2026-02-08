@@ -18,7 +18,8 @@ Welcome to FLASH! This guide will help you run federated learning experiments wi
   number={},
   pages={93-100},
   keywords={Training;Data privacy;Federated learning;Source coding;Noise reduction;Noise;Optimization methods;Hyperparameter optimization;Feature extraction;Data models;Federated Feature Selection;Federated Hyperparameter Optimization;Federated Learning;distributed systems;networks;Machine Learning},
-  doi={10.1109/FLTA67013.2025.11336571}}
+  doi={10.1109/FLTA67013.2025.11336571}
+}
 \```
 
 ## 📋 Table of Contents

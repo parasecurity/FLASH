@@ -14,13 +14,9 @@ Welcome to FLASH! This guide will help you run federated learning experiments wi
   booktitle={2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA)}, 
   title={FLASH: A Framework for Federated Learning with Attribute Selection and Hyperparameter Optimization}, 
   year={2025},
-  volume={},
-  number={},
   pages={93-100},
-  keywords={Training;Data privacy;Federated learning;Source coding;Noise reduction;Noise;Optimization methods;Hyperparameter optimization;Feature extraction;Data models;Federated Feature Selection;Federated Hyperparameter Optimization;Federated Learning;distributed systems;networks;Machine Learning},
   doi={10.1109/FLTA67013.2025.11336571}
 }
-\```
 
 ## 📋 Table of Contents
 

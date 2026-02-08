@@ -4,6 +4,23 @@
 
 Welcome to FLASH! This guide will help you run federated learning experiments with feature selection and hyperparameter optimization across distributed clients. Whether you're experimenting with different models, testing feature selection methods, or deploying at scale, we've got you covered.
 
+**IEEE Style:**
+> I. Christofilogiannis, G. Valavanis, A. Shevtsov, I. Lamprou and S. Ioannidis, "FLASH: A Framework for Federated Learning with Attribute Selection and Hyperparameter Optimization," 2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA), Dubrovnik, Croatia, 2025, pp. 93-100, doi: 10.1109/FLTA67013.2025.11336571.
+
+**BibTeX:**
+```bibtex
+@INPROCEEDINGS{11336571,
+  author={Christofilogiannis, Ioannis and Valavanis, Georgios and Shevtsov, Alexander and Lamprou, Ioannis and Ioannidis, Sotiris},
+  booktitle={2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA)}, 
+  title={FLASH: A Framework for Federated Learning with Attribute Selection and Hyperparameter Optimization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={93-100},
+  keywords={Training;Data privacy;Federated learning;Source coding;Noise reduction;Noise;Optimization methods;Hyperparameter optimization;Feature extraction;Data models;Federated Feature Selection;Federated Hyperparameter Optimization;Federated Learning;distributed systems;networks;Machine Learning},
+  doi={10.1109/FLTA67013.2025.11336571}}
+\```
+
 ## 📋 Table of Contents
 
 - [Quick Start](#-quick-start)

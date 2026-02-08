@@ -17,6 +17,7 @@ Welcome to FLASH! This guide will help you run federated learning experiments wi
   pages={93-100},
   doi={10.1109/FLTA67013.2025.11336571}
 }
+```
 
 ## 📋 Table of Contents
 
